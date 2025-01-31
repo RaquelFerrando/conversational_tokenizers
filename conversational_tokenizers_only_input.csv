@@ -1,0 +1,5 @@
+model,tokens_old,tokens_new,gain
+meta-llama/Llama-3.1-8B,93931228,90127662,4.05
+google/gemma-2-9b,96456228,60731311,37.04
+deepseek-ai/DeepSeek-R1,91560963,88257584,3.61
+mistralai/Mistral-7B-v0.1,111937610,89967763,19.63

@@ -1,0 +1,3 @@
+model,tokens_old,tokens_new,gain
+deepseek-ai/DeepSeek-R1,91560963,87387443,4.56
+meta-llama/Llama-3.1-8B,93931228,89228703,5.01
