@@ -1,5 +1,6 @@
-model,tokens_old,tokens_new,gain
-meta-llama/Llama-3.1-8B,93931228,90127662,4.05
-google/gemma-2-9b,96456228,60731311,37.04
-deepseek-ai/DeepSeek-R1,91560963,88257584,3.61
-mistralai/Mistral-7B-v0.1,111937610,89967763,19.63
+model,tokens_old_input,tokens_new_input,gain_input,tokens_old_output,tokens_new_output,gain_output
+deepseek-ai/DeepSeek-R1,23325593,22093197,5.28,68329634,66241712,3.06
+meta-llama/Llama-3.1-8B,23247243,22077248,5.03,70716854,68052339,3.77
+mistralai/Mistral-7B-v0.3,27336354,21084298,22.87,84602360,68942357,18.51
+google/gemma-2-9b,23606496,13412016,43.19,72839954,47252991,35.13
+mistralai/Mistral-7B-v0.1,27335702,21083965,22.87,84602302,68941866,18.51
