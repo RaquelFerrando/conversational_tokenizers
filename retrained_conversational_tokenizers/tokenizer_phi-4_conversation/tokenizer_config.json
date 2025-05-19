@@ -1,0 +1,782 @@
+{
+  "add_prefix_space": false,
+  "added_tokens_decoder": {
+    "0": {
+      "content": "<|dummy_0|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "1": {
+      "content": "<|endoftext|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "2": {
+      "content": "<|fim_prefix|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "3": {
+      "content": "<|fim_middle|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "4": {
+      "content": "<|fim_suffix|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "5": {
+      "content": "<|dummy_1|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "6": {
+      "content": "<|dummy_2|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "7": {
+      "content": "<|dummy_3|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "8": {
+      "content": "<|im_start|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "9": {
+      "content": "<|im_end|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "10": {
+      "content": "<|im_sep|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "11": {
+      "content": "<|dummy_4|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "12": {
+      "content": "<|dummy_5|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "13": {
+      "content": "<|dummy_6|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "14": {
+      "content": "<|dummy_7|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "15": {
+      "content": "<|dummy_8|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "16": {
+      "content": "<|dummy_9|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "17": {
+      "content": "<|dummy_10|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "18": {
+      "content": "<|dummy_11|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "19": {
+      "content": "<|dummy_12|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "20": {
+      "content": "<|endofprompt|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "21": {
+      "content": "<|dummy_13|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "22": {
+      "content": "<|dummy_14|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "23": {
+      "content": "<|dummy_15|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "24": {
+      "content": "<|dummy_16|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "25": {
+      "content": "<|dummy_17|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "26": {
+      "content": "<|dummy_18|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "27": {
+      "content": "<|dummy_19|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "28": {
+      "content": "<|dummy_20|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "29": {
+      "content": "<|dummy_21|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "30": {
+      "content": "<|dummy_22|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "31": {
+      "content": "<|dummy_23|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "32": {
+      "content": "<|dummy_24|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "33": {
+      "content": "<|dummy_25|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "34": {
+      "content": "<|dummy_26|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "35": {
+      "content": "<|dummy_27|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "36": {
+      "content": "<|dummy_28|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "37": {
+      "content": "<|dummy_29|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "38": {
+      "content": "<|dummy_30|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "39": {
+      "content": "<|dummy_31|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "40": {
+      "content": "<|dummy_32|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "41": {
+      "content": "<|dummy_33|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "42": {
+      "content": "<|dummy_34|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "43": {
+      "content": "<|dummy_35|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "44": {
+      "content": "<|dummy_36|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "45": {
+      "content": "<|dummy_37|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "46": {
+      "content": "<|dummy_38|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "47": {
+      "content": "<|dummy_39|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "48": {
+      "content": "<|dummy_40|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "49": {
+      "content": "<|dummy_41|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "50": {
+      "content": "<|dummy_42|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "51": {
+      "content": "<|dummy_43|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "52": {
+      "content": "<|dummy_44|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "53": {
+      "content": "<|dummy_45|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "54": {
+      "content": "<|dummy_46|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "55": {
+      "content": "<|dummy_47|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "56": {
+      "content": "<|dummy_48|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "57": {
+      "content": "<|dummy_49|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "58": {
+      "content": "<|dummy_50|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "59": {
+      "content": "<|dummy_51|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "60": {
+      "content": "<|dummy_52|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "61": {
+      "content": "<|dummy_53|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "62": {
+      "content": "<|dummy_54|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "63": {
+      "content": "<|dummy_55|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "64": {
+      "content": "<|dummy_56|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "65": {
+      "content": "<|dummy_57|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "66": {
+      "content": "<|dummy_58|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "67": {
+      "content": "<|dummy_59|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "68": {
+      "content": "<|dummy_60|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "69": {
+      "content": "<|dummy_61|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "70": {
+      "content": "<|dummy_62|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "71": {
+      "content": "<|dummy_63|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "72": {
+      "content": "<|dummy_64|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "73": {
+      "content": "<|dummy_65|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "74": {
+      "content": "<|dummy_66|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "75": {
+      "content": "<|dummy_67|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "76": {
+      "content": "<|dummy_68|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "77": {
+      "content": "<|dummy_69|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "78": {
+      "content": "<|dummy_70|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "79": {
+      "content": "<|dummy_71|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "80": {
+      "content": "<|dummy_72|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "81": {
+      "content": "<|dummy_73|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "82": {
+      "content": "<|dummy_74|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "83": {
+      "content": "<|dummy_75|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "84": {
+      "content": "<|dummy_76|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "85": {
+      "content": "<|dummy_77|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "86": {
+      "content": "<|dummy_78|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "87": {
+      "content": "<|dummy_79|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "88": {
+      "content": "<|dummy_80|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "89": {
+      "content": "<|dummy_81|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "90": {
+      "content": "<|dummy_82|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "91": {
+      "content": "<|dummy_83|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "92": {
+      "content": "<|dummy_84|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "93": {
+      "content": "<|dummy_85|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "94": {
+      "content": "<|dummy_86|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    },
+    "95": {
+      "content": "<|dummy_87|>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "bos_token": "<|endoftext|>",
+  "chat_template": "{% for message in messages %}{% if (message['role'] == 'system') %}{{'<|im_start|>system<|im_sep|>' + message['content'] + '<|im_end|>'}}{% elif (message['role'] == 'user') %}{{'<|im_start|>user<|im_sep|>' + message['content'] + '<|im_end|>'}}{% elif (message['role'] == 'assistant') %}{{'<|im_start|>assistant<|im_sep|>' + message['content'] + '<|im_end|>'}}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant<|im_sep|>' }}{% endif %}",
+  "clean_up_tokenization_spaces": false,
+  "eos_token": "<|im_end|>",
+  "extra_special_tokens": {},
+  "model_max_length": 16384,
+  "pad_token": "<|dummy_85|>",
+  "tokenizer_class": "GPT2Tokenizer",
+  "unk_token": "<|endoftext|>"
+}

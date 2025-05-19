@@ -1,0 +1,7 @@
+Tokenizer 1,Tokenizer 2,Number shared tokens,% common
+original,input,55795,55.60
+original,output,53549,53.36
+original,conversation,55463,55.27
+input,output,70609,70.36
+input,conversation,78105,77.83
+output,conversation,90732,90.41
