@@ -2,4 +2,3 @@ key.env
 *.parquet
 *.xlsx
 *.png
-study_tokenizers.ipynb
