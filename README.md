@@ -29,7 +29,7 @@ The original dataset is also extended with the following columns to facilitate m
   The retrained tokenizers were saved and are available for use in the folder [retrained_conversational_tokenizers](./retrained_conversational_tokenizers).
   After the retraining is completed, the test corpus is tokenized using both the original and the retrained tokenizer. The token reduction achieved by each new tokenizer compared to the original one is reported in the files [`conversational_tokenizers_only_input.csv`](./conversational_tokenizers_only_input.csv), [`conversational_tokenizers_only_output.csv`](./conversational_tokenizers_only_output.csv) and [`conversational_tokenizers_conversation.csv`](./conversational_tokenizers_conversation.csv).
 
-## Evaluation of losses of conversation-optimized tokenizers on an LLM training dataset
+## Evaluation of losses of conversation-optimized tokenizers on a LLM training dataset
 - `evaluation_loss_c4.ipynb`: Script that evaluates whether the retrained tokenizers introduce any performance degradation compared to the original one when applied to a subset of the [C4 AllenAI](https://huggingface.co/datasets/allenai/c4) dataset.  
   The token reduction achieved by each new tokenizer is computed, using the same method as in `conversational_tokenizers_gain.ipynb`.  
   Results are provided in [`loss_c4_retrained.csv`](./loss_c4_retrained.csv), where a positive value indicates that the retrained tokenizer performs better (produces fewer tokens) than the original one.
