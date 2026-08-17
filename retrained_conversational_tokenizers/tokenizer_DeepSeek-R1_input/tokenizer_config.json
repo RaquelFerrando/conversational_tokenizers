@@ -6429,7 +6429,7 @@
   "model_max_length": 16384,
   "pad_token": "<｜end▁of▁sentence｜>",
   "sp_model_kwargs": {},
-  "tokenizer_class": "LlamaTokenizer",
+  "tokenizer_class": "PreTrainedTokenizerFast",
   "unk_token": null,
   "use_default_system_prompt": false
 }

@@ -6431,7 +6431,7 @@
   "pad_token": "<｜end▁of▁sentence｜>",
   "sp_model_kwargs": {},
   "stride": 0,
-  "tokenizer_class": "LlamaTokenizerFast",
+  "tokenizer_class": "PreTrainedTokenizerFast",
   "truncation_side": "right",
   "truncation_strategy": "longest_first",
   "unk_token": null,

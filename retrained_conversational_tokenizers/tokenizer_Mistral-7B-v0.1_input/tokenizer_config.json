@@ -25,8 +25,12 @@
       "special": true
     }
   },
+  "bos_token": "<s>",
   "clean_up_tokenization_spaces": false,
+  "eos_token": "</s>",
   "extra_special_tokens": {},
   "model_max_length": 1000000000000000019884624838656,
-  "tokenizer_class": "PreTrainedTokenizerFast"
+  "pad_token": null,
+  "tokenizer_class": "PreTrainedTokenizerFast",
+  "unk_token": "<unk>"
 }
